@@ -3,8 +3,8 @@ import { emojify } from 'node-emoji';
 
 @valueConverter('emoji')
 export class Emoji {
-    toView(val) {
-        if (!val || val === '') {
+    toView(val: string): string {
+        if (!val || val === '' || typeof val !== 'string') {
             return val;
         }
 

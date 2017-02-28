@@ -8,6 +8,10 @@
   dependencies:
     typescript ">=2.1.4"
 
+"@types/node-emoji@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@types/node-emoji/-/node-emoji-1.4.0.tgz#34068c35b74ee5c9d73eb9b84c60b2c06a169412"
+
 "@types/node@^7.0.5":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"

@@ -68,6 +68,11 @@ window.require.config({
       name: 'aurelia-testing',
       location: '/base/node_modules/aurelia-testing/dist/amd',
       main: 'aurelia-testing'
+    },
+    {
+        name: 'node-emoji',
+        location: '/base/node_modules/node-emoji/lib',
+        main: 'emoji'
     }
   ]
 });
